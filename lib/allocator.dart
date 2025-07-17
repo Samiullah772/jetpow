@@ -6,6 +6,8 @@ GetIt locator = GetIt.instance;
 
 void setupLocator()async{
 
+
+
   locator.registerSingleton(LocalStorageService());
 
 

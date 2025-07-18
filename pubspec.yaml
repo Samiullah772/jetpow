@@ -38,6 +38,24 @@ dependencies:
   shared_preferences: ^2.5.3
   get: ^4.7.2
   get_it: ^8.0.3
+  dio: ^5.8.0+1
+#  modal_progress_hud_nsn:
+#  flutter_screenutil:
+#  file_picker:
+#  image_picker:
+#  path_provider:
+#  dio:
+#  intl:
+#  permission_handler:
+#  sliding_up_panel:
+#  pinput:
+#  readmore:
+#  logger:
+#  dots_indicator:
+#  intl_phone_field:
+#  flutter_idensic_mobile_sdk_plugin:
+#  change_app_package_name:
+#  syncfusion_flutter_barcodes:
 
 dev_dependencies:
   flutter_test:

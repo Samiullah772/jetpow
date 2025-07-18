@@ -4,11 +4,7 @@ import 'package:jetpow/core/services/local_storage_service.dart';
 
 GetIt locator = GetIt.instance;
 
-void setupLocator()async{
-
-
-
+setupLocator()async{
   locator.registerSingleton(LocalStorageService());
-
 
 }

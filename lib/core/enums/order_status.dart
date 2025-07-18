@@ -1,0 +1,7 @@
+enum OrdStatus {
+  ALL,
+  PENDING,
+  PROCESSING,
+  COMPLETED,
+  CANCELLED,
+}

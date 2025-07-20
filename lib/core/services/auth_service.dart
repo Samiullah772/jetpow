@@ -36,51 +36,5 @@ class AuthService {
   ///       a) Get the user profile data
   ///       b) Updates the user FCM Token
   ///
-  doSetup() async {
-   // isLogin = _localStorageService.accessToken != null;
-    if (isLogin) {
-      print('User is already logged-in');
-      await _getUserProfile();
-    } else {
-      print('User is not logged-in');
-      isLogin = false;
-    }
-  }
-
-  _getUserProfile() async {
-    UserResponse response = await _dbService.getUserProfile();
-    if (response.success) {
-      user = response.profile;
-      isLogin = true;
-      print('Got User Data: ${user.toJson()}');
-    } else {
-      isLogin = false;
-    }
-  }
-
-  signup(SignupBody body) async {
-    AuthResponse response = await _dbService.createAccount(body);
-    if (response.success) {
-     // _localStorageService.accessToken = response.accessToken;
-     // _localStorageService.refreshToken = response.refreshToken;
-      await _getUserProfile();
-    }
-    return response;
-  }
-
-  login(LoginBody body) async {
-    late AuthResponse response;
-    response = await _dbService.login(body);
-    if (response.success) {
-     // _localStorageService.accessToken = response.accessToken;
-      await _getUserProfile();
-    }
-    return response;
-  }
-
-  logout() async {
-    isLogin = false;
-    user = User();
-    //_localStorageService.accessToken = null;
-  }
+  ///
 }

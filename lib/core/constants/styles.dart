@@ -6,7 +6,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 //import 'package:pinput/pinput.dart';
 
 final splashHeadingTextStyle = TextStyle(
-  fontSize: SizeConfigService.getFontSize(30.sp),
+  fontSize: SizeConfigService.getFontSize(28.sp),
   fontWeight: FontWeight.w500,
   color: Color(0xff153625),
   fontFamily: oswald,
@@ -19,14 +19,11 @@ final splashSubHeadingTextStyle = TextStyle(
   fontFamily: outfit,
 );
 
-
 final headingTextStyle = TextStyle(
   fontSize: SizeConfigService.getFontSize(20.sp),
   fontWeight: FontWeight.w500,
   fontFamily: oswald,
 );
-
-
 
 final onBoardingTextStyle = TextStyle(
   color: blackColor,
@@ -57,13 +54,13 @@ final subHeadingTextStyleBold = TextStyle(
 final mediumTextStyle = TextStyle(
   fontSize: SizeConfigService.getFontSize(17.sp),
   fontWeight: FontWeight.w500,
-  fontFamily: oswald,
+  fontFamily: outfit,
 );
 
 final bodyTextStyle = TextStyle(
   fontSize: SizeConfigService.getFontSize(15.sp),
   fontWeight: FontWeight.w400,
-  fontFamily: oswald,
+  fontFamily: outfit,
 );
 final bodyTextStyleBold = TextStyle(
   fontSize: SizeConfigService.getFontSize(15.sp),
@@ -80,6 +77,19 @@ final miniTextStyle = TextStyle(
   fontSize: SizeConfigService.getFontSize(10.sp),
   fontWeight: FontWeight.w400,
   fontFamily: oswald,
+);
+
+final primaryButtonTextStyle = TextStyle(
+  fontSize: SizeConfigService.getFontSize(16.sp),
+  fontWeight: FontWeight.w500,
+  color: whiteColor,
+  fontFamily: outfit,
+);
+final secondryButtonTextStyle = TextStyle(
+  fontSize: SizeConfigService.getFontSize(16.sp),
+  fontWeight: FontWeight.w500,
+  color: primaryColor,
+  fontFamily: outfit,
 );
 
 InputDecoration authTextFieldDecoration = InputDecoration(

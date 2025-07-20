@@ -5,16 +5,15 @@ import 'package:jetpow/splash_screen.dart';
 import 'package:jetpow/ui/screens/home/home_screen.dart';
 import 'package:get/get.dart';
 
-void main()async{
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
- // await setupLocator();
+  // await setupLocator();
   runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget{
-
+class MyApp extends StatelessWidget {
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     final screenSize = MediaQuery.of(context);
     return ScreenUtilInit(
       designSize: Size(screenSize.size.width, screenSize.size.height),

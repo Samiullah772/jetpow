@@ -19,8 +19,8 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
    void delay()async{
-    //await Future.delayed(Duration(seconds: 4));
-    //Get.to(()=>OnBoardScreen());
+    await Future.delayed(Duration(seconds: 4));
+    Get.off(()=>OnBoardScreen());
   }
 
   @override

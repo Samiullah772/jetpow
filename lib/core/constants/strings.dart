@@ -14,6 +14,20 @@ const String sfFont = "SF Pro Display";
 const String ready = "READY";
 const String approved = "APPROVED";
 
+const String onBoardtitle1 = 'Lawn problem? No problem';
+const String onBoardtitle2 = 'Upload, Analyze, and Relax';
+const String onBoardtitle3 = 'Fertilizer Plans That Work for You';
+const String onBoardtitle4 = 'What To Do Next !';
+
+const String onBoardbody1 =
+    'Personalized solutions with a few simple questions.';
+const String onBoardbody2 =
+    'Simply upload your soil report (PDF, image, or form) — we’ll handle the analysis and extract key data automatically.';
+const String onBoardbody3 =
+    'Get a tailored fertilizer schedule, product recommendations, and seasonal tasks — all based on your lawn’s real needs.';
+const String onBoardbody4 =
+    'Let our intelligent system guide you to greener grass with custom fertilizer plans made just for your lawn.';
+
 // "READY","FAILED","INITIAL","INCOMPLETE","PENDING","TEMPORARILYDECLINED","FINALLYREJECTED","APPROVED","ACTIONCOMPLETED"
 
 final String accessToken =
